@@ -10,7 +10,8 @@
     "test:jest:coverage": "jest --coverage",
     "test:jest:watch": "jest --watchAll",
     "test:mocha": "nyc mocha",
-    "types:check": "tsc --skipLibCheck --noEmit"
+    "types:check": "tsc --skipLibCheck --noEmit",
+    "gold": "ts-node ./test/golden-master-text-test.ts"
   },
   "license": "MIT",
   "private": true,
