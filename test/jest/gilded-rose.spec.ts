@@ -8,3 +8,10 @@ describe('Gilded Rose', () => {
     expect(gildedRose.items[0].name).toBe('foo');
   });
 });
+
+describe("Shop", () => {
+  it('has an items property', () => {
+    let gildedRose = new GildedRose()
+    expect(gildedRose.items).toEqual([])
+  });
+});
