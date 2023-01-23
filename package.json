@@ -7,8 +7,10 @@
     "compile": "tsc",
     "pretest": "rimraf app/**/*.js test/**/*.js",
     "test:jest": "jest",
+    "test:jest:coverage": "jest --coverage",
     "test:jest:watch": "jest --watchAll",
-    "test:mocha": "nyc mocha"
+    "test:mocha": "nyc mocha",
+    "types:check": "tsc --skipLibCheck --noEmit"
   },
   "license": "MIT",
   "private": true,
